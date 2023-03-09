@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
-import { forkJoin, map, Observable, tap } from "rxjs";
+import { forkJoin, Observable } from "rxjs";
+import { map, tap } from "rxjs/operators";
 import { DateTime } from "luxon";
 
 import { ApexOptions } from "src/@vex/components/chart/chart.component";
